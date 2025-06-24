@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the trained model
-loaded_model = pickle.load(open('ParkinsonsSVM.sav', 'rb'))
+loaded_model = pickle.load(open('D:/internship/SAV files/ParkinsonsSVM.sav', 'rb'))
 
 def heart_disease_prediction(input_data):
     # Convert input data to numpy array and reshape
